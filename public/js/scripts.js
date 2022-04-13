@@ -9,7 +9,7 @@ getButton.addEventListener("click", (event) => {
   event.preventDefault();
   console.log(input.value);
   var contentPara = document.querySelector(".responseHolder");
-  let competeUrl = "http://localhost:3001/weather" + "?search=" + input.value;
+  let competeUrl = "/weather" + "?search=" + input.value;
   fetch(competeUrl)
     .then((response) => response.json())
     .then((data) => {

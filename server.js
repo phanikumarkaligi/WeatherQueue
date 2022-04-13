@@ -19,8 +19,8 @@ app.set("view engine", "hbs");
 hbs.registerPartials(__dirname + "/partials");
 app.use(express.static(__dirname + "/public"));
 app.use("/js", express.static(__dirname + "/public/js"));
-
-app.listen("3001", () => {
+const port = process.env.PORT || 3001;
+app.listen(port, () => {
   console.log("server listening on port 3001");
 });
 app.get("/", (req, res) => {

@@ -4,5 +4,23 @@
     "express": "^4.17.3",
     "hbs": "^4.2.0",
     "yargs": "^17.4.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "weatherqueue",
+  "description": "WeatherQueue is an API for fetching weather data",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanikumarkaligi/WeatherQueue.git"
+  },
+  "author": "Phani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phanikumarkaligi/WeatherQueue/issues"
+  },
+  "homepage": "https://github.com/phanikumarkaligi/WeatherQueue#readme"
 }
