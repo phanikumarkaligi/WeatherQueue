@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  padding-bottom: 50px;
+}
+
+.header-list ul {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+.header-list li {
+  padding: 10px 20px;
+}
+
+/* Home page styles */
+.maincontent {
+  max-height: 80vh;
+  width: 50%;
+  margin: 30px auto;
+}
+
+/* About Page Styles */
+.aboutflex {
+  display: flex;
+  flex-direction: column;
+}
+.aboutus {
+  max-height: 80vh;
+  width: 50%;
+  margin: 30px auto;
+}
+.aboutus > p {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.story {
+  margin: 30px auto 50px;
+  background-color: #398ab9;
+}
+.story > p {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 300;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.maincontent h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.maincontent input,
+.maincontent button {
+  min-width: 30%;
+  min-height: 40px;
+}
+.maincontent > p {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  width: 50%;
+  margin: auto auto;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 32px;
+}
+.footer h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

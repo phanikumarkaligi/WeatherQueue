@@ -1,0 +1,19 @@
+ {{!-- this is a dynamic page as we send some info while rendering  --}}
+
+<html lang="en">
+  {{>head}}
+  <body>
+      {{>header}}
+      <div class="maincontent">
+    <h1>WeatherQueue</h1>
+    <h2>Check the weather in your city</h2>
+    <input  id = "userInput" type="text" placeholder="city name here.." >
+    <button>Get Weather</button>
+          <p class="responseHolder"> </p>
+
+      </div>
+    {{>footer}}
+    {{!-- Script tag should be kept after all elements --}}
+      <script src="/js/scripts.js"></script>
+  </body>
+</html>
